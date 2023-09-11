@@ -1,0 +1,340 @@
+-- import: fastn-community.github.io/hero-doc/docs
+
+-- docs.home:
+created-by: By **Priyanka**
+
+
+
+
+
+
+-- component stack:
+caption title:
+optional body subtitle:
+optional string cta-primary-text:
+optional string cta-primary-url:
+optional string cta-secondary-text:
+optional string cta-secondary-url:
+ftd.image-src image:
+
+-- ftd.column:
+width: fill-container
+color: $inherited.colors.text
+align-content: center
+padding-vertical.px: 50
+padding-horizontal.px: 180
+background.solid: $inherited.colors.background.base
+spacing.fixed.px: 20
+role: $inherited.types.copy-regular
+
+-- ftd.text: $stack.title
+color: $inherited.colors.text-strong
+role: $inherited.types.heading-large
+
+-- ftd.text: $stack.subtitle
+if: { stack.subtitle != NULL }
+
+-- ftd.row:
+spacing.fixed.px: 50
+
+-- ftd.text: $stack.cta-primary-text
+link: $stack.cta-primary-url
+color: $inherited.colors.cta-primary.text
+background.solid: $inherited.colors.cta-primary.base
+padding-vertical.px: 10
+padding-horizontal.px: 20
+if: { stack.cta-primary-text != NULL }
+
+
+-- ftd.text: $stack.cta-secondary-text
+link: $stack.cta-secondary-url
+color: $inherited.colors.cta-secondary.text
+background.solid: $inherited.colors.cta-secondary.base
+padding-vertical.px: 10
+padding-horizontal.px: 20
+if: { stack.cta-secondary-text != NULL }
+
+-- end: ftd.row
+
+
+-- ftd.image:
+src: $stack.image
+width: fill-container
+
+
+-- end: ftd.column
+
+-- end: stack
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- component heading-center:
+caption title:
+optional body subtitle:
+optional string cta-primary-text:
+optional string cta-primary-url:
+optional string cta-secondary-text:
+optional string cta-secondary-url:
+ftd.image-src image:
+
+-- ftd.column:
+width: fill-container
+color: $inherited.colors.text
+align-content: center
+padding-vertical.px: 50
+padding-horizontal.px: 80
+background.solid: $inherited.colors.background.base
+spacing.fixed.px: 20
+role: $inherited.types.copy-regular
+
+-- ftd.text: $heading-center.title
+color: $inherited.colors.text-strong
+role: $inherited.types.heading-large
+
+-- ftd.row:
+width: fill-container
+spacing.fixed.px: 50
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.text: $heading-center.subtitle
+if: { heading-center.subtitle != NULL }
+
+-- ftd.row:
+spacing.fixed.px: 20
+
+-- ftd.text: $heading-center.cta-primary-text
+link: $heading-center.cta-primary-url
+color: $inherited.colors.cta-primary.text
+background.solid: $inherited.colors.cta-primary.base
+padding-vertical.px: 10
+padding-horizontal.px: 20
+if: { heading-center.cta-primary-text != NULL }
+
+
+-- ftd.text: $heading-center.cta-secondary-text
+link: $heading-center.cta-secondary-url
+color: $inherited.colors.cta-secondary.text
+background.solid: $inherited.colors.cta-secondary.base
+padding-vertical.px: 10
+padding-horizontal.px: 20
+if: { heading-center.cta-secondary-text != NULL }
+
+-- end: ftd.row
+-- end: ftd.column
+
+-- ftd.image:
+src: $heading-center.image
+width: fill-container
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: heading-center
+
+
+
+
+
+
+
+
+
+
+-- component heading-left:
+caption title:
+optional body subtitle:
+optional string cta-primary-text:
+optional string cta-primary-url:
+optional string cta-secondary-text:
+optional string cta-secondary-url:
+ftd.image-src image:
+
+-- ftd.row:
+width: fill-container
+color: $inherited.colors.text
+align-content: center
+padding-vertical.px: 50
+padding-horizontal.px: 80
+background.solid: $inherited.colors.background.base
+spacing.fixed.px: 50
+role: $inherited.types.copy-regular
+
+-- ftd.column:
+width: fill-container
+width.fixed.percent: 60
+
+-- ftd.text: $heading-left.title
+color: $inherited.colors.text-strong
+role: $inherited.types.heading-medium
+
+-- ftd.text: $heading-left.subtitle
+if: { heading-left.subtitle != NULL }
+
+-- ftd.row:
+spacing.fixed.px: 20
+margin-top.px: 20
+
+-- ftd.text: $heading-left.cta-primary-text
+link: $heading-left.cta-primary-url
+color: $inherited.colors.cta-primary.text
+background.solid: $inherited.colors.cta-primary.base
+padding-vertical.px: 10
+padding-horizontal.px: 20
+if: { heading-left.cta-primary-text != NULL }
+
+-- ftd.text: $heading-left.cta-secondary-text
+link: $heading-left.cta-secondary-url
+color: $inherited.colors.cta-secondary.text
+background.solid: $inherited.colors.cta-secondary.base
+padding-vertical.px: 10
+padding-horizontal.px: 20
+if: { heading-left.cta-secondary-text != NULL }
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $heading-left.image
+width.fixed.percent: 40
+
+-- end: ftd.row
+
+-- end: heading-left
+
+
+
+
+
+
+-- component heading-right:
+caption title:
+optional body subtitle:
+optional string cta-primary-text:
+optional string cta-primary-url:
+optional string cta-secondary-text:
+optional string cta-secondary-url:
+ftd.image-src image:
+
+-- ftd.row:
+width: fill-container
+color: $inherited.colors.text
+align-content: center
+padding-vertical.px: 50
+padding-horizontal.px: 80
+background.solid: $inherited.colors.background.base
+spacing.fixed.px: 50
+role: $inherited.types.copy-regular
+
+-- ftd.image:
+src: $heading-right.image
+width.fixed.percent: 40
+
+
+-- ftd.column:
+width: fill-container
+width.fixed.percent: 60
+
+-- ftd.text: $heading-right.title
+color: $inherited.colors.text-strong
+role: $inherited.types.heading-medium
+
+-- ftd.text: $heading-right.subtitle
+if: { heading-right.subtitle != NULL }
+
+-- ftd.row:
+spacing.fixed.px: 20
+margin-top.px: 20
+
+-- ftd.text: $heading-right.cta-primary-text
+link: $heading-right.cta-primary-url
+color: $inherited.colors.cta-primary.text
+background.solid: $inherited.colors.cta-primary.base
+padding-vertical.px: 10
+padding-horizontal.px: 20
+if: { heading-right.cta-primary-text != NULL }
+
+-- ftd.text: $heading-right.cta-secondary-text
+link: $heading-right.cta-secondary-url
+color: $inherited.colors.cta-secondary.text
+background.solid: $inherited.colors.cta-secondary.base
+padding-vertical.px: 10
+padding-horizontal.px: 20
+if: { heading-right.cta-secondary-text != NULL }
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: heading-right
+
+
+
+
+-- component without-image:
+caption title:
+optional body subtitle:
+optional string cta-primary-text:
+optional string cta-primary-url:
+optional string cta-secondary-text:
+optional string cta-secondary-url:
+
+-- ftd.column:
+width: fill-container
+color: $inherited.colors.text
+align-content: center
+padding-vertical.px: 50
+padding-horizontal.px: 80
+background.solid: $inherited.colors.background.base
+spacing.fixed.px: 10
+
+-- ftd.text: $without-image.title
+color: $inherited.colors.text-strong
+role: $inherited.types.heading-medium
+
+-- ftd.text: $without-image.subtitle
+if: { without-image.subtitle != NULL }
+
+-- ftd.row:
+spacing.fixed.px: 20
+margin-top.px: 20
+
+-- ftd.text: $without-image.cta-primary-text
+link: $without-image.cta-primary-url
+color: $inherited.colors.cta-primary.text
+background.solid: $inherited.colors.cta-primary.base
+padding-vertical.px: 10
+padding-horizontal.px: 20
+if: { without-image.cta-primary-text != NULL }
+
+-- ftd.text: $without-image.cta-secondary-text
+link: $without-image.cta-secondary-url
+color: $inherited.colors.cta-secondary.text
+background.solid: $inherited.colors.cta-secondary.base
+padding-vertical.px: 10
+padding-horizontal.px: 20
+if: { without-image.cta-secondary-text != NULL }
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: without-image
