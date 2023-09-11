@@ -2,6 +2,7 @@
 
 -- docs.home:
 created-by: By **Priyanka**
+preview-url: preview/
 
 
 
@@ -302,9 +303,10 @@ width: fill-container
 color: $inherited.colors.text
 align-content: center
 padding-vertical.px: 50
-padding-horizontal.px: 80
+padding-horizontal.px: 180
 background.solid: $inherited.colors.background.base
 spacing.fixed.px: 10
+role: $inherited.types.copy-regular
 
 -- ftd.text: $without-image.title
 color: $inherited.colors.text-strong
@@ -312,6 +314,7 @@ role: $inherited.types.heading-medium
 
 -- ftd.text: $without-image.subtitle
 if: { without-image.subtitle != NULL }
+text-align: center
 
 -- ftd.row:
 spacing.fixed.px: 20
