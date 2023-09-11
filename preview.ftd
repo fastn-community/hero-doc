@@ -3,6 +3,8 @@
 
 -- ftd.column:
 colors: $cs.main
+width: fill-container
+height: fill-container
 
 -- hero.stack: Title copy goes here
 cta-primary-text: View more
