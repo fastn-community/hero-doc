@@ -1,0 +1,13 @@
+-- import: fastn
+
+-- fastn.package: fastn-community.github.io/hero-doc
+favicon: /-/fastn-community.github.io/hero-doc/favicon.ico
+
+-- fastn.dependency: fastn-community.github.io/category-doc-components as cdc
+
+-- fastn.auto-import: fastn-community.github.io/hero-doc/assets
+
+
+-- fastn.sitemap:
+
+# Home: index.html
