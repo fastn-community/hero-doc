@@ -158,6 +158,99 @@ Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum er
 
 
 
+
+
+
+
+
+
+-- component preview:
+module category: fastn-community.github.io/hero-doc
+ftd.image-src image: $assets.files.images.image.svg
+
+
+-- cdc.page:
+
+-- preview.category.stack: Title copy goes here
+cta-primary-text: View more
+cta-primary-url: /
+cta-secondary-text: Preview
+cta-secondary-url: /
+image: $preview.image
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
+sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.
+Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum erat.
+
+
+
+-- preview.category.heading-center: Title copy goes here
+cta-primary-text: View more
+cta-primary-url: /
+cta-secondary-text: Preview
+cta-secondary-url: /
+image: $preview.image
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
+sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.
+Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum erat.
+
+
+
+-- preview.category.heading-left: Title copy goes here
+cta-primary-text: View more
+cta-primary-url: /
+cta-secondary-text: Preview
+cta-secondary-url: /
+image: $preview.image
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
+sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.
+Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum erat.
+
+
+
+-- preview.category.heading-right: Title copy goes here
+cta-primary-text: View more
+cta-primary-url: /
+cta-secondary-text: Preview
+cta-secondary-url: /
+image: $preview.image
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
+sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.
+Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum erat.
+
+
+
+-- preview.category.without-image: Title copy goes here
+cta-primary-text: View more
+cta-primary-url: /
+cta-secondary-text: Preview
+cta-secondary-url: /
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
+sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.
+Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum erat.
+
+
+-- end: cdc.page
+
+
+-- end: preview
+
+
+
+
+
+
+
+
+
+
+
+
+
 -- string sample-code(a,cname):
 string a:
 string cname:
