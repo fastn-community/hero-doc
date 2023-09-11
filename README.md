@@ -1,2 +1,2 @@
-# hero-with-two-cta
+# hero-doc
 This is a category root package
