@@ -1,10 +1,7 @@
 -- import:  fastn-community.github.io/hero-doc as hero
--- import: cdc/categories/color-scheme as cs
+-- import: cdc
 
--- ftd.column:
-colors: $cs.main
-width: fill-container
-height: fill-container
+-- cdc.page:
 
 -- hero.stack: Title copy goes here
 cta-primary-text: View more
@@ -68,4 +65,4 @@ sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.
 Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum erat.
 
 
--- end: ftd.column
+-- end: cdc.page

@@ -15,7 +15,6 @@ optional body description:
 ftd.type-data types: $inherited.types
 
 -- cdc.page:
-github-url: $home.package-name
 
 -- cdc.hero-section: $home.package-name
 subtitle: $home.created-by
