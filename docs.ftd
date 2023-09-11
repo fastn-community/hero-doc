@@ -8,7 +8,7 @@ string package-full-name: fastn-community.github.io/hero-doc
 optional string license-url: https://github.com/fastn-community/hero-doc/blob/home/LICENSE
 string github: https://github.com/fastn-community/hero-doc/
 module category: fastn-community.github.io/hero-doc
-ftd.image-src logo: $assets.files.images.ipsum-logo.svg
+ftd.image-src image: $assets.files.images.image.svg
 optional string preview-url:
 optional string created-by:
 optional body description:
@@ -37,7 +37,7 @@ cta-primary-text: View more
 cta-primary-url: /
 cta-secondary-text: Preview
 cta-secondary-url: /
-image: $assets.files.images.image.svg
+image: $home.image
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
 sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.
@@ -60,7 +60,7 @@ cta-primary-text: View more
 cta-primary-url: /
 cta-secondary-text: Preview
 cta-secondary-url: /
-image: $assets.files.images.image.svg
+image: $home.image
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
 sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.
@@ -85,7 +85,7 @@ cta-primary-text: View more
 cta-primary-url: /
 cta-secondary-text: Preview
 cta-secondary-url: /
-image: $assets.files.images.image.svg
+image: $home.image
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
 sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.
@@ -110,7 +110,7 @@ cta-primary-text: View more
 cta-primary-url: /
 cta-secondary-text: Preview
 cta-secondary-url: /
-image: $assets.files.images.image.svg
+image: $home.image
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
 sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.

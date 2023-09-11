@@ -4,64 +4,6 @@
 created-by: By **Priyanka**
 
 
--- component stack:
-caption title:
-optional body subtitle:
-optional string cta-primary-text:
-optional string cta-primary-url:
-optional string cta-secondary-text:
-optional string cta-secondary-url:
-ftd.image-src image:
-
--- ftd.column:
-width: fill-container
-color: $inherited.colors.text
-align-content: center
-padding-vertical.px: 50
-padding-horizontal.px: 180
-background.solid: $inherited.colors.background.base
-spacing.fixed.px: 20
-role: $inherited.types.copy-regular
-
--- ftd.text: $stack.title
-color: $inherited.colors.text-strong
-role: $inherited.types.heading-large
-
--- ftd.text: $stack.subtitle
-if: { stack.subtitle != NULL }
-
--- ftd.row:
-spacing.fixed.px: 50
-
--- ftd.text: $stack.cta-primary-text
-link: $stack.cta-primary-url
-color: $inherited.colors.cta-primary.text
-background.solid: $inherited.colors.cta-primary.base
-padding-vertical.px: 10
-padding-horizontal.px: 20
-if: { stack.cta-primary-text != NULL }
-
-
--- ftd.text: $stack.cta-secondary-text
-link: $stack.cta-secondary-url
-color: $inherited.colors.cta-secondary.text
-background.solid: $inherited.colors.cta-secondary.base
-padding-vertical.px: 10
-padding-horizontal.px: 20
-if: { stack.cta-secondary-text != NULL }
-
--- end: ftd.row
-
-
--- ftd.image:
-src: $stack.image
-width: fill-container
-
-
--- end: ftd.column
-
--- end: stack
-
 
 
 
