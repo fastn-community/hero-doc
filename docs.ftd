@@ -36,9 +36,9 @@ $sample-code(a = $home.package-full-name, cname = stack)
 
 -- home.category.stack: Title copy goes here
 cta-primary-text: View more
-cta-primary-url: /
+cta-primary-url: index.html
 cta-secondary-text: Preview
-cta-secondary-url: /
+cta-secondary-url: index.html
 image: $home.image
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
@@ -58,9 +58,9 @@ $sample-code(a = $home.package-full-name, cname = stack)
 
 -- home.category.left-stack: Title copy goes here
 cta-primary-text: View more
-cta-primary-url: /
+cta-primary-url: index.html
 cta-secondary-text: Preview
-cta-secondary-url: /
+cta-secondary-url: index.html
 image: $home.image
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
@@ -80,9 +80,9 @@ $sample-code(a = $home.package-full-name, cname = heading-center)
 
 -- home.category.heading-center: Title copy goes here
 cta-primary-text: View more
-cta-primary-url: /
+cta-primary-url: index.html
 cta-secondary-text: Preview
-cta-secondary-url: /
+cta-secondary-url: index.html
 image: $home.image
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
@@ -102,9 +102,9 @@ $sample-code(a = $home.package-full-name, cname = heading-left)
 
 -- home.category.heading-left: Title copy goes here
 cta-primary-text: View more
-cta-primary-url: /
+cta-primary-url: index.html
 cta-secondary-text: Preview
-cta-secondary-url: /
+cta-secondary-url: index.html
 image: $home.image
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
@@ -127,9 +127,9 @@ $sample-code(a = $home.package-full-name, cname = heading-right)
 
 -- home.category.heading-right: Title copy goes here
 cta-primary-text: View more
-cta-primary-url: /
+cta-primary-url: index.html
 cta-secondary-text: Preview
-cta-secondary-url: /
+cta-secondary-url: index.html
 image: $home.image
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
@@ -150,9 +150,9 @@ $sample-code-without-image(a = $home.package-full-name, cname = without-image)
 
 -- home.category.without-image: Title copy goes here
 cta-primary-text: View more
-cta-primary-url: /
+cta-primary-url: index.html
 cta-secondary-text: Preview
-cta-secondary-url: /
+cta-secondary-url: index.html
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
 sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.
