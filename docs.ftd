@@ -1,4 +1,5 @@
 -- import: fastn-community.github.io/hero-doc
+
 -- import: cdc
 
 
@@ -11,13 +12,15 @@ module category: fastn-community.github.io/hero-doc
 ftd.image-src image: $assets.files.images.image.svg
 optional string preview-url:
 optional string created-by:
+optional string creator-url:
 optional body description:
 ftd.type-data types: $inherited.types
 
 -- cdc.page:
 
 -- cdc.hero-section: $home.package-name
-subtitle: $home.created-by
+creator-name: $home.created-by
+creator-url: $home.creator-url
 cta-primary-text: View more hero designs
 cta-primary-link: https://fastn.com/featured/
 cta-secondary-text: Preview
@@ -33,9 +36,9 @@ $sample-code(a = $home.package-full-name, cname = stack)
 
 -- home.category.stack: Title copy goes here
 cta-primary-text: View more
-cta-primary-url: /
+cta-primary-url: index.html
 cta-secondary-text: Preview
-cta-secondary-url: /
+cta-secondary-url: index.html
 image: $home.image
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
@@ -55,9 +58,9 @@ $sample-code(a = $home.package-full-name, cname = stack)
 
 -- home.category.left-stack: Title copy goes here
 cta-primary-text: View more
-cta-primary-url: /
+cta-primary-url: index.html
 cta-secondary-text: Preview
-cta-secondary-url: /
+cta-secondary-url: index.html
 image: $home.image
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
@@ -77,9 +80,9 @@ $sample-code(a = $home.package-full-name, cname = heading-center)
 
 -- home.category.heading-center: Title copy goes here
 cta-primary-text: View more
-cta-primary-url: /
+cta-primary-url: index.html
 cta-secondary-text: Preview
-cta-secondary-url: /
+cta-secondary-url: index.html
 image: $home.image
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
@@ -99,9 +102,9 @@ $sample-code(a = $home.package-full-name, cname = heading-left)
 
 -- home.category.heading-left: Title copy goes here
 cta-primary-text: View more
-cta-primary-url: /
+cta-primary-url: index.html
 cta-secondary-text: Preview
-cta-secondary-url: /
+cta-secondary-url: index.html
 image: $home.image
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
@@ -124,9 +127,9 @@ $sample-code(a = $home.package-full-name, cname = heading-right)
 
 -- home.category.heading-right: Title copy goes here
 cta-primary-text: View more
-cta-primary-url: /
+cta-primary-url: index.html
 cta-secondary-text: Preview
-cta-secondary-url: /
+cta-secondary-url: index.html
 image: $home.image
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
@@ -147,9 +150,9 @@ $sample-code-without-image(a = $home.package-full-name, cname = without-image)
 
 -- home.category.without-image: Title copy goes here
 cta-primary-text: View more
-cta-primary-url: /
+cta-primary-url: index.html
 cta-secondary-text: Preview
-cta-secondary-url: /
+cta-secondary-url: index.html
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt
 sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.
@@ -159,8 +162,46 @@ Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum er
 
 -- end: cdc.preview
 
--- end: cdc.page
+-- cdc.overview: Properties
 
+-- cdc.component-property: `title`
+type: caption  (`required`)
+
+It's used to define the title for your hero component.
+
+-- cdc.component-property: `subtitle`
+type: body (`optional`)
+
+It's used to define the subtitle for your hero component.
+
+-- cdc.component-property: `cta-primary-text`
+type: string (`optional`)
+
+It's used to define the cta primary text for your hero component.
+
+-- cdc.component-property: `cta-primary-url`
+type: string (`optional`)
+
+It's used to define the cta primary url for your hero component.
+
+-- cdc.component-property: `cta-secondary-text`
+type: string (`optional`)
+
+It's used to define the cta secondary text for your hero component.
+
+-- cdc.component-property: `cta-secondary-url`
+type: string (`optional`)
+
+It's used to define the cta secondary url for your hero component.
+
+-- cdc.component-property: `image`
+type: ftd.image-src (`required`)
+
+It's used to define the image for your hero component.
+
+-- end: cdc.overview
+
+-- end: cdc.page
 
 -- end: home
 
