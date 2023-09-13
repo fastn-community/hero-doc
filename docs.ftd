@@ -162,7 +162,13 @@ Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum er
 
 -- end: cdc.preview
 
+
+
+
+
 -- cdc.overview: Properties
+
+The following properties are available for the hero components:
 
 -- cdc.component-property: `title`
 type: caption  (`required`)
@@ -198,6 +204,8 @@ It's used to define the cta secondary url for your hero component.
 type: ftd.image-src (`required`)
 
 It's used to define the image for your hero component.
+
+*Note: This property is not available for `without-image`.*
 
 -- end: cdc.overview
 
