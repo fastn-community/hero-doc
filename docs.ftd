@@ -28,9 +28,8 @@ cta-secondary-link: $home.preview-url
 github-url: $home.github
 license-url: $home.license-url
 
--- cdc.preview: Hero Stack
 
--- cdc.code-with-preview:
+-- cdc.code-with-preview: Hero Stack
 
 $sample-code(a = $home.package-full-name, cname = stack)
 
@@ -47,12 +46,10 @@ Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum er
 
 -- end: cdc.code-with-preview
 
--- end: cdc.preview
 
 
--- cdc.preview: Left Stack
 
--- cdc.code-with-preview:
+-- cdc.code-with-preview: Left Stack
 
 $sample-code(a = $home.package-full-name, cname = stack)
 
@@ -69,12 +66,10 @@ Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum er
 
 -- end: cdc.code-with-preview
 
--- end: cdc.preview
 
 
--- cdc.preview: Hero Heading Center
 
--- cdc.code-with-preview:
+-- cdc.code-with-preview: Hero Heading Center
 
 $sample-code(a = $home.package-full-name, cname = heading-center)
 
@@ -91,12 +86,9 @@ Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum er
 
 -- end: cdc.code-with-preview
 
--- end: cdc.preview
 
 
--- cdc.preview: Hero Heading Left
-
--- cdc.code-with-preview:
+-- cdc.code-with-preview: Hero Heading Left
 
 $sample-code(a = $home.package-full-name, cname = heading-left)
 
@@ -113,15 +105,10 @@ Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum er
 
 -- end: cdc.code-with-preview
 
--- end: cdc.preview
 
 
 
-
-
--- cdc.preview: Hero Heading Right
-
--- cdc.code-with-preview:
+-- cdc.code-with-preview: Hero Heading Right
 
 $sample-code(a = $home.package-full-name, cname = heading-right)
 
@@ -138,13 +125,10 @@ Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum er
 
 -- end: cdc.code-with-preview
 
--- end: cdc.preview
 
 
 
--- cdc.preview: Hero Without Image
-
--- cdc.code-with-preview:
+-- cdc.code-with-preview: Hero Without Image
 
 $sample-code-without-image(a = $home.package-full-name, cname = without-image)
 
@@ -159,8 +143,6 @@ sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.
 Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum erat.
 
 -- end: cdc.code-with-preview
-
--- end: cdc.preview
 
 
 
