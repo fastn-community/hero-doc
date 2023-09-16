@@ -16,6 +16,7 @@ optional string cta-primary-url:
 optional string cta-secondary-text:
 optional string cta-secondary-url:
 ftd.image-src image:
+optional ftd.background background:
 
 -- ftd.column:
 width: fill-container
@@ -86,6 +87,7 @@ optional string cta-primary-url:
 optional string cta-secondary-text:
 optional string cta-secondary-url:
 ftd.image-src image:
+optional ftd.background background:
 
 -- ftd.column:
 width: fill-container
@@ -162,6 +164,7 @@ optional string cta-primary-url:
 optional string cta-secondary-text:
 optional string cta-secondary-url:
 ftd.image-src image:
+optional ftd.background background:
 
 -- ftd.column:
 width: fill-container
@@ -237,6 +240,7 @@ optional string cta-primary-url:
 optional string cta-secondary-text:
 optional string cta-secondary-url:
 ftd.image-src image:
+optional ftd.background background:
 
 -- ftd.row:
 width: fill-container
@@ -304,6 +308,7 @@ optional string cta-primary-url:
 optional string cta-secondary-text:
 optional string cta-secondary-url:
 ftd.image-src image:
+optional ftd.background background:
 
 -- ftd.row:
 width: fill-container
@@ -369,6 +374,7 @@ optional string cta-primary-text:
 optional string cta-primary-url:
 optional string cta-secondary-text:
 optional string cta-secondary-url:
+optional ftd.background background:
 
 -- ftd.column:
 width: fill-container
