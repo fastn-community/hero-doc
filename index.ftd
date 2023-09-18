@@ -8,7 +8,7 @@ created-by: Priyanka
 
 
 
--- component stack:
+-- component hero-stack:
 caption title:
 optional body subtitle:
 optional string cta-primary-text:
@@ -28,44 +28,44 @@ background.solid: $inherited.colors.background.base
 spacing.fixed.px: 20
 role: $inherited.types.copy-regular
 
--- ftd.text: $stack.title
+-- ftd.text: $hero-stack.title
 color: $inherited.colors.text-strong
 role: $inherited.types.heading-large
 
--- ftd.text: $stack.subtitle
-if: { stack.subtitle != NULL }
+-- ftd.text: $hero-stack.subtitle
+if: { hero-stack.subtitle != NULL }
 
 -- ftd.row:
 spacing.fixed.px: 50
 
--- ftd.text: $stack.cta-primary-text
-link: $stack.cta-primary-url
+-- ftd.text: $hero-stack.cta-primary-text
+link: $hero-stack.cta-primary-url
 color: $inherited.colors.cta-primary.text
 background.solid: $inherited.colors.cta-primary.base
 padding-vertical.px: 10
 padding-horizontal.px: 20
-if: { stack.cta-primary-text != NULL }
+if: { hero-stack.cta-primary-text != NULL }
 
 
--- ftd.text: $stack.cta-secondary-text
-link: $stack.cta-secondary-url
+-- ftd.text: $hero-stack.cta-secondary-text
+link: $hero-stack.cta-secondary-url
 color: $inherited.colors.cta-secondary.text
 background.solid: $inherited.colors.cta-secondary.base
 padding-vertical.px: 10
 padding-horizontal.px: 20
-if: { stack.cta-secondary-text != NULL }
+if: { hero-stack.cta-secondary-text != NULL }
 
 -- end: ftd.row
 
 
 -- ftd.image:
-src: $stack.image
+src: $hero-stack.image
 width: fill-container
 
 
 -- end: ftd.column
 
--- end: stack
+-- end: hero-stack
 
 
 
@@ -79,7 +79,7 @@ width: fill-container
 
 
 
--- component left-stack:
+-- component hero-left-stack:
 caption title:
 optional body subtitle:
 optional string cta-primary-text:
@@ -99,44 +99,44 @@ background.solid: $inherited.colors.background.base
 spacing.fixed.px: 20
 role: $inherited.types.copy-regular
 
--- ftd.text: $left-stack.title
+-- ftd.text: $hero-left-stack.title
 color: $inherited.colors.text-strong
 role: $inherited.types.heading-large
 
--- ftd.text: $left-stack.subtitle
-if: { left-stack.subtitle != NULL }
+-- ftd.text: $hero-left-stack.subtitle
+if: { hero-left-stack.subtitle != NULL }
 
 -- ftd.row:
 spacing.fixed.px: 50
 
--- ftd.text: $left-stack.cta-primary-text
-link: $left-stack.cta-primary-url
+-- ftd.text: $hero-left-stack.cta-primary-text
+link: $hero-left-stack.cta-primary-url
 color: $inherited.colors.cta-primary.text
 background.solid: $inherited.colors.cta-primary.base
 padding-vertical.px: 10
 padding-horizontal.px: 20
-if: { left-stack.cta-primary-text != NULL }
+if: { hero-left-stack.cta-primary-text != NULL }
 
 
--- ftd.text: $left-stack.cta-secondary-text
-link: $left-stack.cta-secondary-url
+-- ftd.text: $hero-left-stack.cta-secondary-text
+link: $hero-left-stack.cta-secondary-url
 color: $inherited.colors.cta-secondary.text
 background.solid: $inherited.colors.cta-secondary.base
 padding-vertical.px: 10
 padding-horizontal.px: 20
-if: { left-stack.cta-secondary-text != NULL }
+if: { hero-left-stack.cta-secondary-text != NULL }
 
 -- end: ftd.row
 
 
 -- ftd.image:
-src: $left-stack.image
+src: $hero-left-stack.image
 width: fill-container
 
 
 -- end: ftd.column
 
--- end: left-stack
+-- end: hero-left-stack
 
 
 
@@ -156,7 +156,7 @@ width: fill-container
 
 
 
--- component heading-center:
+-- component hero-heading-center:
 caption title:
 optional body subtitle:
 optional string cta-primary-text:
@@ -176,7 +176,7 @@ background.solid: $inherited.colors.background.base
 spacing.fixed.px: 20
 role: $inherited.types.copy-regular
 
--- ftd.text: $heading-center.title
+-- ftd.text: $hero-heading-center.title
 color: $inherited.colors.text-strong
 role: $inherited.types.heading-large
 
@@ -187,41 +187,41 @@ spacing.fixed.px: 50
 -- ftd.column:
 width: fill-container
 
--- ftd.text: $heading-center.subtitle
-if: { heading-center.subtitle != NULL }
+-- ftd.text: $hero-heading-center.subtitle
+if: { hero-heading-center.subtitle != NULL }
 
 -- ftd.row:
 spacing.fixed.px: 20
 
--- ftd.text: $heading-center.cta-primary-text
-link: $heading-center.cta-primary-url
+-- ftd.text: $hero-heading-center.cta-primary-text
+link: $hero-heading-center.cta-primary-url
 color: $inherited.colors.cta-primary.text
 background.solid: $inherited.colors.cta-primary.base
 padding-vertical.px: 10
 padding-horizontal.px: 20
-if: { heading-center.cta-primary-text != NULL }
+if: { hero-heading-center.cta-primary-text != NULL }
 
 
--- ftd.text: $heading-center.cta-secondary-text
-link: $heading-center.cta-secondary-url
+-- ftd.text: $hero-heading-center.cta-secondary-text
+link: $hero-heading-center.cta-secondary-url
 color: $inherited.colors.cta-secondary.text
 background.solid: $inherited.colors.cta-secondary.base
 padding-vertical.px: 10
 padding-horizontal.px: 20
-if: { heading-center.cta-secondary-text != NULL }
+if: { hero-heading-center.cta-secondary-text != NULL }
 
 -- end: ftd.row
 -- end: ftd.column
 
 -- ftd.image:
-src: $heading-center.image
+src: $hero-heading-center.image
 width: fill-container
 
 -- end: ftd.row
 
 -- end: ftd.column
 
--- end: heading-center
+-- end: hero-heading-center
 
 
 
@@ -232,7 +232,7 @@ width: fill-container
 
 
 
--- component heading-left:
+-- component hero-heading-left:
 caption title:
 optional body subtitle:
 optional string cta-primary-text:
@@ -256,51 +256,51 @@ role: $inherited.types.copy-regular
 width: fill-container
 width.fixed.percent: 60
 
--- ftd.text: $heading-left.title
+-- ftd.text: $hero-heading-left.title
 color: $inherited.colors.text-strong
 role: $inherited.types.heading-medium
 
--- ftd.text: $heading-left.subtitle
-if: { heading-left.subtitle != NULL }
+-- ftd.text: $hero-heading-left.subtitle
+if: { hero-heading-left.subtitle != NULL }
 
 -- ftd.row:
 spacing.fixed.px: 20
 margin-top.px: 20
 
--- ftd.text: $heading-left.cta-primary-text
-link: $heading-left.cta-primary-url
+-- ftd.text: $hero-heading-left.cta-primary-text
+link: $hero-heading-left.cta-primary-url
 color: $inherited.colors.cta-primary.text
 background.solid: $inherited.colors.cta-primary.base
 padding-vertical.px: 10
 padding-horizontal.px: 20
-if: { heading-left.cta-primary-text != NULL }
+if: { hero-heading-left.cta-primary-text != NULL }
 
--- ftd.text: $heading-left.cta-secondary-text
-link: $heading-left.cta-secondary-url
+-- ftd.text: $hero-heading-left.cta-secondary-text
+link: $hero-heading-left.cta-secondary-url
 color: $inherited.colors.cta-secondary.text
 background.solid: $inherited.colors.cta-secondary.base
 padding-vertical.px: 10
 padding-horizontal.px: 20
-if: { heading-left.cta-secondary-text != NULL }
+if: { hero-heading-left.cta-secondary-text != NULL }
 
 -- end: ftd.row
 
 -- end: ftd.column
 
 -- ftd.image:
-src: $heading-left.image
+src: $hero-heading-left.image
 width.fixed.percent: 40
 
 -- end: ftd.row
 
--- end: heading-left
+-- end: hero-heading-left
 
 
 
 
 
 
--- component heading-right:
+-- component hero-heading-right:
 caption title:
 optional body subtitle:
 optional string cta-primary-text:
@@ -321,7 +321,7 @@ spacing.fixed.px: 50
 role: $inherited.types.copy-regular
 
 -- ftd.image:
-src: $heading-right.image
+src: $hero-heading-right.image
 width.fixed.percent: 40
 
 
@@ -329,32 +329,32 @@ width.fixed.percent: 40
 width: fill-container
 width.fixed.percent: 60
 
--- ftd.text: $heading-right.title
+-- ftd.text: $hero-heading-right.title
 color: $inherited.colors.text-strong
 role: $inherited.types.heading-medium
 
--- ftd.text: $heading-right.subtitle
-if: { heading-right.subtitle != NULL }
+-- ftd.text: $hero-heading-right.subtitle
+if: { hero-heading-right.subtitle != NULL }
 
 -- ftd.row:
 spacing.fixed.px: 20
 margin-top.px: 20
 
--- ftd.text: $heading-right.cta-primary-text
-link: $heading-right.cta-primary-url
+-- ftd.text: $hero-heading-right.cta-primary-text
+link: $hero-heading-right.cta-primary-url
 color: $inherited.colors.cta-primary.text
 background.solid: $inherited.colors.cta-primary.base
 padding-vertical.px: 10
 padding-horizontal.px: 20
-if: { heading-right.cta-primary-text != NULL }
+if: { hero-heading-right.cta-primary-text != NULL }
 
--- ftd.text: $heading-right.cta-secondary-text
-link: $heading-right.cta-secondary-url
+-- ftd.text: $hero-heading-right.cta-secondary-text
+link: $hero-heading-right.cta-secondary-url
 color: $inherited.colors.cta-secondary.text
 background.solid: $inherited.colors.cta-secondary.base
 padding-vertical.px: 10
 padding-horizontal.px: 20
-if: { heading-right.cta-secondary-text != NULL }
+if: { hero-heading-right.cta-secondary-text != NULL }
 
 -- end: ftd.row
 
@@ -362,12 +362,12 @@ if: { heading-right.cta-secondary-text != NULL }
 
 -- end: ftd.row
 
--- end: heading-right
+-- end: hero-heading-right
 
 
 
 
--- component without-image:
+-- component hero-without-image:
 caption title:
 optional body subtitle:
 optional string cta-primary-text:
@@ -386,36 +386,36 @@ background.solid: $inherited.colors.background.base
 spacing.fixed.px: 10
 role: $inherited.types.copy-regular
 
--- ftd.text: $without-image.title
+-- ftd.text: $hero-without-image.title
 color: $inherited.colors.text-strong
 role: $inherited.types.heading-medium
 
--- ftd.text: $without-image.subtitle
-if: { without-image.subtitle != NULL }
+-- ftd.text: $hero-without-image.subtitle
+if: { hero-without-image.subtitle != NULL }
 text-align: center
 
 -- ftd.row:
 spacing.fixed.px: 20
 margin-top.px: 20
 
--- ftd.text: $without-image.cta-primary-text
-link: $without-image.cta-primary-url
+-- ftd.text: $hero-without-image.cta-primary-text
+link: $hero-without-image.cta-primary-url
 color: $inherited.colors.cta-primary.text
 background.solid: $inherited.colors.cta-primary.base
 padding-vertical.px: 10
 padding-horizontal.px: 20
-if: { without-image.cta-primary-text != NULL }
+if: { hero-without-image.cta-primary-text != NULL }
 
--- ftd.text: $without-image.cta-secondary-text
-link: $without-image.cta-secondary-url
+-- ftd.text: $hero-without-image.cta-secondary-text
+link: $hero-without-image.cta-secondary-url
 color: $inherited.colors.cta-secondary.text
 background.solid: $inherited.colors.cta-secondary.base
 padding-vertical.px: 10
 padding-horizontal.px: 20
-if: { without-image.cta-secondary-text != NULL }
+if: { hero-without-image.cta-secondary-text != NULL }
 
 -- end: ftd.row
 
 -- end: ftd.column
 
--- end: without-image
+-- end: hero-without-image
