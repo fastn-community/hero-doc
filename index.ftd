@@ -22,7 +22,7 @@ width: fill-container
 color: $inherited.colors.text
 align-content: center
 padding-vertical.px: 50
-padding-horizontal.px: 180
+padding-horizontal.px: 50
 background.solid: $inherited.colors.background.base
 spacing.fixed.px: 20
 role: $inherited.types.copy-regular
@@ -92,7 +92,7 @@ width: fill-container
 color: $inherited.colors.text
 align-content: left
 padding-vertical.px: 50
-padding-horizontal.px: 180
+padding-horizontal.px: 50
 background.solid: $inherited.colors.background.base
 spacing.fixed.px: 20
 role: $inherited.types.copy-regular
@@ -375,7 +375,7 @@ width: fill-container
 color: $inherited.colors.text
 align-content: center
 padding-vertical.px: 50
-padding-horizontal.px: 180
+padding-horizontal.px: 50
 background.solid: $inherited.colors.background.base
 spacing.fixed.px: 10
 role: $inherited.types.copy-regular
