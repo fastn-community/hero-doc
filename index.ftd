@@ -34,6 +34,8 @@ role: $inherited.types.heading-large
 
 -- ftd.text: $hero-stack.subtitle
 if: { hero-stack.subtitle != NULL }
+align-content: center
+max-width.fixed.px: 80
 
 -- ftd.row:
 spacing.fixed.px: 50
