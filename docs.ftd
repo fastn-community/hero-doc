@@ -28,13 +28,12 @@ cta-secondary-link: $home.preview-url
 github-url: $home.github
 license-url: $home.license-url
 
--- cdc.preview: Hero Stack
 
--- cdc.code-with-preview:
+-- cdc.code-with-preview: Hero Stack
 
 $sample-code(a = $home.package-full-name, cname = stack)
 
--- home.category.stack: Title copy goes here
+-- home.category.hero-stack: Title copy goes here
 cta-primary-text: View more
 cta-primary-url: index.html
 cta-secondary-text: Preview
@@ -47,16 +46,14 @@ Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum er
 
 -- end: cdc.code-with-preview
 
--- end: cdc.preview
 
 
--- cdc.preview: Left Stack
 
--- cdc.code-with-preview:
+-- cdc.code-with-preview: Left Stack
 
-$sample-code(a = $home.package-full-name, cname = stack)
+$sample-code(a = $home.package-full-name, cname = left-stack)
 
--- home.category.left-stack: Title copy goes here
+-- home.category.hero-left-stack: Title copy goes here
 cta-primary-text: View more
 cta-primary-url: index.html
 cta-secondary-text: Preview
@@ -69,16 +66,14 @@ Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum er
 
 -- end: cdc.code-with-preview
 
--- end: cdc.preview
 
 
--- cdc.preview: Hero Heading Center
 
--- cdc.code-with-preview:
+-- cdc.code-with-preview: Hero Heading Center
 
 $sample-code(a = $home.package-full-name, cname = heading-center)
 
--- home.category.heading-center: Title copy goes here
+-- home.category.hero-heading-center: Title copy goes here
 cta-primary-text: View more
 cta-primary-url: index.html
 cta-secondary-text: Preview
@@ -91,16 +86,13 @@ Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum er
 
 -- end: cdc.code-with-preview
 
--- end: cdc.preview
 
 
--- cdc.preview: Hero Heading Left
-
--- cdc.code-with-preview:
+-- cdc.code-with-preview: Hero Heading Left
 
 $sample-code(a = $home.package-full-name, cname = heading-left)
 
--- home.category.heading-left: Title copy goes here
+-- home.category.hero-heading-left: Title copy goes here
 cta-primary-text: View more
 cta-primary-url: index.html
 cta-secondary-text: Preview
@@ -113,19 +105,14 @@ Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum er
 
 -- end: cdc.code-with-preview
 
--- end: cdc.preview
 
 
 
-
-
--- cdc.preview: Hero Heading Right
-
--- cdc.code-with-preview:
+-- cdc.code-with-preview: Hero Heading Right
 
 $sample-code(a = $home.package-full-name, cname = heading-right)
 
--- home.category.heading-right: Title copy goes here
+-- home.category.hero-heading-right: Title copy goes here
 cta-primary-text: View more
 cta-primary-url: index.html
 cta-secondary-text: Preview
@@ -138,17 +125,14 @@ Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum er
 
 -- end: cdc.code-with-preview
 
--- end: cdc.preview
 
 
 
--- cdc.preview: Hero Without Image
-
--- cdc.code-with-preview:
+-- cdc.code-with-preview: Hero Without Image
 
 $sample-code-without-image(a = $home.package-full-name, cname = without-image)
 
--- home.category.without-image: Title copy goes here
+-- home.category.hero-without-image: Title copy goes here
 cta-primary-text: View more
 cta-primary-url: index.html
 cta-secondary-text: Preview
@@ -159,8 +143,6 @@ sagittis eros. Quisque quis euismod lorem. Etiam sodales ac felis id interdum.
 Proin viverra nulla sem, vel molestie lacus volutpat nec. Integer ut bibendum erat.
 
 -- end: cdc.code-with-preview
-
--- end: cdc.preview
 
 
 
@@ -323,12 +305,12 @@ string a:
 string cname:
 
 "\;; In FASTN.ftd \\n"
-+ "-- fastn.dependency:" + a + "\\n\\n"
++ "-- fastn.dependency: " + a + "\\n\\n"
 + "\;; In the file where you want to add the header (e.g., `index.ftd`)\\n\\n"
 + "\;; Add this at the top of the file\\n"
 + "-- import: " + a + " as hero\\n\\n"
 + "\;; Add this where you want to show the component\\n"
-+ "-- hero." + cname +": Title copy goes here\\n"
++ "-- hero.hero-" + cname +": Title copy goes here\\n"
 + "cta-primary-text: View more\\n"
 + "cta-primary-url: /\\n"
 + "cta-secondary-text: Preview\\n"
@@ -343,12 +325,12 @@ string a:
 string cname:
 
 "\;; In FASTN.ftd \\n"
-+ "-- fastn.dependency:" + a + "\\n\\n"
++ "-- fastn.dependency: " + a + "\\n\\n"
 + "\;; In the file where you want to add the header (e.g., `index.ftd`)\\n\\n"
 + "\;; Add this at the top of the file\\n"
 + "-- import: " + a + " as hero\\n\\n"
 + "\;; Add this where you want to show the component\\n"
-+ "-- hero." + cname +": Title copy goes here\\n"
++ "-- hero.hero-" + cname +": Title copy goes here\\n"
 + "cta-primary-text: View more\\n"
 + "cta-primary-url: /\\n"
 + "cta-secondary-text: Preview\\n"
